@@ -5,7 +5,10 @@
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
-        "classmap": ["src"]
+        "classmap": ["legacy_classes"],
+        "psr-4": {
+            "ADDph\\": "src"
+        }
     },
     "authors": [
         {

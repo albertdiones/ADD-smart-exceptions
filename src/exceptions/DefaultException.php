@@ -1,4 +1,7 @@
 <?php
+namespace ADDPh\exceptions;
+
+use Exception;
 /**
  * Custom exception for ADD MVC
  * can mail error message to developers, change the view completely, smart assert etc.
@@ -17,7 +20,7 @@
  * @since ADD MVC 0.0
  * @version 0.2
  */
-CLASS e_add EXTENDS Exception {
+CLASS defaultException EXTENDS Exception {
 
    /**
     * Email adress(es) to send debug email to
