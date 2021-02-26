@@ -1,0 +1,13 @@
+{
+    "name": "addph/framework",
+    "description": "ADD Framework",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Albert Diones",
+            "email": "albertdiones@gmail.com"
+        }
+    ]
+}
