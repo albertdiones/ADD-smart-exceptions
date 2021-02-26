@@ -17,7 +17,7 @@
  * @since ADD MVC 0.0
  * @version 0.2
  */
-CLASS e_add EXTENDS Exception IMPLEMENTS i_with_view {
+CLASS e_add EXTENDS Exception {
 
    /**
     * Email adress(es) to send debug email to
